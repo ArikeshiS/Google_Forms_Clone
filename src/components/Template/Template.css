@@ -1,0 +1,100 @@
+.template_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f9;
+    padding-bottom: 40px;
+    padding-top: 7px;
+    flex-direction: column;
+}
+.template_top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.template_right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    /* padding-left: 150px; */
+    /* margin-left: 150px; */
+}
+
+
+.gallery_button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.template_left {
+    /* padding-right: 150px; */
+    /* margin-right: 150px; */
+    display: flex;
+    justify-content: flex-start;
+    /* margin-left: 50px */
+  }
+
+
+/* .template_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .template_left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .template_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .gallery_button {
+    margin-left: 10px; /* Adjust the spacing between "Start New Form" and "Template gallery" */
+    /* font-size: 16px;
+    color: #202124; */
+  /* } */ 
+  
+  /* Add any other styles you need for your icons here */
+  
+  
+  /* Add any other styles you need for your icons here */
+  
+  .template_body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f9;
+    padding-right: 450px;
+    padding-top: 10px;
+
+}
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.card_image{
+    box-sizing: border-box;
+    height:120px;
+    width:140px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 0.2px solid #d0d0d0;
+}
+
+.card_image:hover{
+    border: 1px solid #6E2594; 
+}
